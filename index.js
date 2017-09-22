@@ -18,5 +18,3 @@ function destructivelyRemoveLastKitten(){
   console.log(kittens)
   return kittens
 }
-
-
