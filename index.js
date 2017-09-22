@@ -43,3 +43,9 @@ function removeLastKitten(){
   kittens.pop()
   return kittens
 }
+
+function removeFirstKitten(){
+  var more_kittens = kittens.unshift()
+  console.log(kittens)
+  return kittens
+}
