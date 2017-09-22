@@ -38,3 +38,8 @@ function prependKitten(name){
   console.log(more_kittens)
   return more_kittens
 }
+
+function removeLastKitten(){
+  kittens.pop()
+  return kittens
+}
