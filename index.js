@@ -23,19 +23,19 @@ function destructivelyRemoveLastKitten(){
 
 function destructivelyRemoveFirstKitten(){
   kittens.shift()
-  console.log(kittens)
+  //console.log(kittens)
   return kittens
 }
 
 function appendKitten(name){
   var more_kittens = [...kittens, name]
-  console.log(more_kittens)
+  //console.log(more_kittens)
   return more_kittens
 }
 
 function prependKitten(name){
   var more_kittens = [name, ...kittens]
-  console.log(more_kittens)
+  //console.log(more_kittens)
   return more_kittens
 }
 
