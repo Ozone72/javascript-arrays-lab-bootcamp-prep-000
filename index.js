@@ -47,5 +47,6 @@ function removeLastKitten(){
 function removeFirstKitten(){
   var less_kittens = kittens.shift()
   console.log(kittens)
+  console.log(less_kittens)
   return less_kittens
 }
