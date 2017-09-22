@@ -24,3 +24,9 @@ function destructivelyRemoveFirstKitten(){
   console.log(kittens)
   return kittens
 }
+
+function appendKitten(name){
+  const more_kittens = kittens.append(name)
+  console.log(more_kittens)
+  return kittens
+}
