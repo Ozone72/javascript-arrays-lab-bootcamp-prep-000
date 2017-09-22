@@ -32,3 +32,9 @@ function appendKitten(name){
   console.log(more_kittens)
   return more_kittens
 }
+
+function prependKitten(name){
+  var more_kittens = [name, ...kittens]
+  console.log(more_kittens)
+  return more_kittenss
+}
