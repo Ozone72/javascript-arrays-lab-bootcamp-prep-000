@@ -5,19 +5,19 @@ console.log(`Starting array: ${kittens}`)
 
 function destructivelyAppendKitten(name){
   kittens.push(name)
-  console.log(kittens)
+  //console.log(kittens)
   return kittens
 }
 
 function destructivelyPrependKitten(name){
   kittens.unshift(name)
-  console.log(kittens)
+  //console.log(kittens)
   return kittens
 }
 
 function destructivelyRemoveLastKitten(){
   kittens.pop()
-  console.log(kittens)
+  //console.log(kittens)
   return kittens
 }
 
@@ -45,7 +45,7 @@ function removeLastKitten(){
 }
 
 function removeFirstKitten(){
-  var more_less = kittens.unshift()
+  var less_kittens = kittens.unshift()
   console.log(kittens)
   return less_kittens
 }
