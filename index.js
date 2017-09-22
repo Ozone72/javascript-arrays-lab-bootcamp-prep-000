@@ -6,3 +6,9 @@ function destructivelyAppendKitten(name){
   console.log(kittens)
   return kittens
 }
+
+function destructivelyPrependKitten(name){
+  kittens.prepend(name)
+  console.log(kittens)
+  return kittens
+}
